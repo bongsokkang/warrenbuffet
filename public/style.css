@@ -37,7 +37,7 @@
       }
 
       blockquote{
-        background-color: #E2F1DE;
+        background-color: rgb(92, 236, 52);
         margin-right: 0px;
       }
       p{
@@ -49,6 +49,6 @@
       }
 
       h1, h2{
-        color: white;
+        color: rgb(240, 227, 52);
         text-align: center;
       }
