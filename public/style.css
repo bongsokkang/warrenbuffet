@@ -1,0 +1,54 @@
+  body { background-color: #1E1959 ;
+         background-image: url("https://i.pinimg.com/originals/6d/88/ba/6d88ba056ad66378e8ec95c341004065.jpg");
+
+
+       }
+      #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1%;
+      }
+      /* #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 50%;
+        height: 700px;
+      }
+      #notes {
+        float: right;
+        width: 40%;
+      } */
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FFF8AA;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+      h3{
+        color: white;
+      }
+
+      blockquote{
+        background-color: #E2F1DE;
+        margin-right: 0px;
+      }
+      p{
+        color: black;
+      }
+
+      .blockquote-footer{
+        color: blue;
+      }
+
+      h1, h2{
+        color: white;
+        text-align: center;
+      }
