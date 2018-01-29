@@ -1,5 +1,5 @@
   body { background-color: #1E1959 ;
-         background-image: url("https://i.pinimg.com/originals/6d/88/ba/6d88ba056ad66378e8ec95c341004065.jpg");
+         background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/02/65/63/65578876d4f20e9.jpg");
 
 
        }
@@ -9,16 +9,7 @@
         margin-right: auto;
         padding-top: 1%;
       }
-      /* #articles {
-        display: inline-block;
-        overflow: auto;
-        width: 50%;
-        height: 700px;
-      }
-      #notes {
-        float: right;
-        width: 40%;
-      } */
+
       textarea, input {
         display: block;
         width: 100%;
