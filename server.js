@@ -64,6 +64,9 @@ app.get("/scrape", function(req, res) {
         .catch(err => console.log(err));
     });
   });
+});
+  
+app.get("/scrape2", function(req, res) {
 
   axios.get("https://smallbiztrends.com/").then(function(response) {
 
@@ -92,6 +95,9 @@ app.get("/scrape", function(req, res) {
         .catch(err => console.log(err));
     });
   });
+});
+
+app.get("/scrape3", function(req, res) {
 
   axios.get("https://smallbiztrends.com/").then(function(response) {
 
@@ -122,7 +128,6 @@ app.get("/scrape", function(req, res) {
   });
 });
 
-
 app.get("/articles", function(req, res) {
 
   db.Article
@@ -137,9 +142,11 @@ app.get("/articles", function(req, res) {
     });
 });
 
+
+
 app.get("/articles2", function(req, res) {
 
-  db.Article2
+  db.Article
     .find({})
     .then(function(dbArticle) {
 
@@ -150,10 +157,11 @@ app.get("/articles2", function(req, res) {
       res.json(err);
     });
 });
+
 
 app.get("/articles3", function(req, res) {
 
-  db.Article3
+  db.Article
     .find({})
     .then(function(dbArticle) {
 
@@ -164,7 +172,6 @@ app.get("/articles3", function(req, res) {
       res.json(err);
     });
 });
-
 
 app.get("/articles/:id", function(req, res) {
 
@@ -181,6 +188,7 @@ app.get("/articles/:id", function(req, res) {
       res.json(err);
     });
 });
+
 
 app.post("/articles/:id", function(req, res) {
 
