@@ -25,6 +25,25 @@ $.getJSON("/articles3", function(data) {
 });
 
 
+$(function() {
+  $('#scrape-btn').click(function () {
+    $.ajax({
+        method: 'GET',
+        url: '/scrape',
+        success: function () {
+            window.location.href = '/'
+        }
+    });
+    $.ajax({
+        method: 'GET',
+        url: '/scrape2',
+        success: function () {
+            window.location.href = '/'
+        }
+    });
+  }); 
+  });
+  
 
 // Whenever someone clicks a p tag
 $(document).on("click", "p", function() {
@@ -88,3 +107,4 @@ $(document).on("click", "#savenote", function() {
   $("#titleinput").val("");
   $("#bodyinput").val("");
 });
+
